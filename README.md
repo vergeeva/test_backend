@@ -2,6 +2,8 @@
 Bachend для тестового задания \
 Реализовано с fastapi, подключение к бд postgres  
 
+Запуск: python -m uvicorn app.main:app --host localhost --port 8000 --reload  
+
 Запросы http://localhost:8000/ 
 ## GET: 
 api/users/all_users - получить список всех пользователей из бд \
