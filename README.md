@@ -1,6 +1,6 @@
 # test_backend
 Bachend для тестового задания \
-Реализовано с fastapi, подключение к бд postgres \
+Реализовано с fastapi, подключение к бд postgres  
 
 Запросы http://localhost:8000/ 
 ## GET: 
