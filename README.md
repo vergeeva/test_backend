@@ -4,6 +4,7 @@ Backend для тестового задания \
 база данных создана в pgadmin4.   
 
 Запуск: python -m uvicorn app.main:app --host localhost --port 8000 --reload  
+Для работы должен быть запущен docker
 
 Фронтенд: https://github.com/vergeeva/test_task 
 
