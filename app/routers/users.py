@@ -27,7 +27,7 @@ def create_or_update_user(payload: schemas.UserBaseSchema, request: Request, db:
         return new_user
     else:
         user.click_count += 1
-        user_query.update(payload.dict(exclude_unset=True),synchronize_session=False)
+        user_query.update(payload.dict(exclude_unset=True), synchronize_session=False)
         db.commit()
         return user
 
