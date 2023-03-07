@@ -1,6 +1,7 @@
 # test_backend
-Bachend для тестового задания \
-Реализовано с fastapi, подключение к бд postgres  
+Backend для тестового задания \
+Реализовано с fastapi, подключение к бд postgres.  
+база данных создана в pgadmin4.   
 
 Запуск: python -m uvicorn app.main:app --host localhost --port 8000 --reload  
 
