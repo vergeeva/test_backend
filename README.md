@@ -4,6 +4,8 @@ Bachend для тестового задания \
 
 Запуск: python -m uvicorn app.main:app --host localhost --port 8000 --reload  
 
+Фронтенд: https://github.com/vergeeva/test_task 
+
 Запросы http://localhost:8000/ 
 ## GET: 
 api/users/all_users - получить список всех пользователей из бд \
