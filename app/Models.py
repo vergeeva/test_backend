@@ -1,6 +1,6 @@
 import uuid
 from .database import Base
-from sqlalchemy import TIMESTAMP, Column,Integer, String, text
+from sqlalchemy import TIMESTAMP, Column, Integer, String, text
 from sqlalchemy.dialects.postgresql import UUID
 
 
@@ -10,6 +10,6 @@ class User(Base):
                 default=uuid.uuid4)
     name = Column(String, nullable=False)
     email = Column(String, unique=True, nullable=False)
-    click_count = Column(Integer, unique=True)
+    click_count = Column(Integer)
     first_click_date = Column(TIMESTAMP(timezone=True),
                               nullable=False, server_default=text("now()"))
